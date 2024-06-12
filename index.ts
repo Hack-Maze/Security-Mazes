@@ -12,6 +12,7 @@ const blocks = [
     dirName: 'Challenges',
     recursive: true,
   },
+  
 ];
 
 if (!process.env.NOTION_TOKEN) {
