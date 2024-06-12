@@ -13,9 +13,9 @@ const blocks = [
     recursive: true,
   },
   {
-    id: '6f4de252-0f30-471b-bb53-6cfa333948d5',
+    id: '393ef7ec-d3de-410d-97398642dce6f44a',
     spaceId: '33f1c42a-d4a2-49be-8079-cedeb6dd99b9',
-    dirName: 'Fundamentals',
+    dirName: 'Toturials',
     recursive: true,
   },
   
