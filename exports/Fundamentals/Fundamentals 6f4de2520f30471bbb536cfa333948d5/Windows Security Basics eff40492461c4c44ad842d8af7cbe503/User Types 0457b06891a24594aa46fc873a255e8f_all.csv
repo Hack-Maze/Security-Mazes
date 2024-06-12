@@ -1,0 +1,6 @@
+﻿User,Description
+Administrators,These users have the most privileges. They can change any system configuration parameter and access any file in the system.
+Standard Users,"These
+ users can access the computer but only perform limited tasks. Typically
+ these users can not make permanent or essential changes to the system 
+and are limited to their files."
