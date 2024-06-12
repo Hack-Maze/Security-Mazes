@@ -7,25 +7,10 @@ import pMap from 'p-map';
 
 const blocks = [
   {
-    // Find the page block ID by either:
-    // 1. Copying the alphanumeric part at the end of the Notion
-    //    page URL and separate it with dashes in the same format
-    //    as below (number of characters between dashes:
-    //    8-4-4-4-12)
-    // 2. Inspecting network requests in the DevTools
-    id: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
-    // Find the space ID associated with a block by running this
-    // in the DevTools Console while on the page you want to
-    // export:
-    // ```
-    // $('img[src*="spaceId="]').src.replace(/^.+&spaceId=([^&]+)&.+$/, '$1')
-    // ```
-    spaceId: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
-    // Choose a directory name for your export to appear in the
-    // `exports` folder
-    dirName: 'notion-page-a',
-    // Should all of the subpages also be exported?
-    recursive: false,
+    id: '4e4a7ec8-6011-4751-a5ba-746eb065f6e3',
+    spaceId: '33f1c42a-d4a2-49be-8079-cedeb6dd99b9',
+    dirName: 'Challenges',
+    recursive: true,
   },
 ];
 
